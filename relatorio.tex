@@ -101,21 +101,26 @@ O conceito de computação autonômica foi apresentado inicialmente pela IBM em 
 Assim, a computação autonômica pode ser descrita como um sistema capaz de se auto-organizar conforme as regras de negócio e objetivos definidos pelos administradores~\cite{ROMILDO}. Para alcançar esse nível de auto-gerenciamento, quatro áreas básicas devem ser atendidas: auto-configuração (\textit{Self-Configuration}), auto-otimização (\textit{Self-Optimization}), auto-cura (\textit{Self-Healing}) e auto-proteção (\textit{Self-Protection}).
 
 \subsection{Princípios e Terminologia}
-Os principios que norteiam os sistemas autonômicos foram inicialmente descritos no trabalho de \textit{Paul Horn}~\cite{KEPHART}, cientista e vice-presidente de pesquisa da IBM, em março de 2001, na Academia Nacional de Engenheiros de Havard. Segundo o autor, oito peças fundamentais compõe os requisitos de um sistema autonômico, a saber:
+Os principios que norteiam os sistemas autonômicos foram inicialmente descritos no trabalho de \textit{Paul Horn}~\cite{KEPHART}, cientista e vice-presidente de pesquisa da IBM, em março de 2001, na Academia Nacional de Engenheiros de Havard. Segundo o autor, quatro peças fundamentais compõe os requisitos para o auto-gerenciamento de um sistema autonômico, a saber:
 
 \begin{itemize}
-\item \textit{Self-Knowledge} - Os sistemas devem possuir a capacidade de se conhecerem, ou seja, este deve conhecer seus próprios componentes e suas condições de funcionamento como também o funcionamento de outros sistemas. 
-\item \textit{Self-Configuration} - Os sistemas autonômicos devem possuir a capacidade de configurar e reconfigurar-se de acordo com variações externas e imprevistas.
-\item \textit{Self-Otimization} - Os sistemas autonômicos devem sempre estar em busca de otimização de seu trabalho.
-\item \textit{Self-Healing} - Os sistemas autonômicos devem possuir capacidade de recuperar-se quanto atingidos por eventos que venham prejudicar o seu bom funcionamento, assim como detectar e aplicar soluções para que os problemas sejam corrigidos.
-\item \textit{Self-Protection} - Os sistemas autonômicos devem ser especialistas em auto-proteção.
-\item \textit{Self-Awareness / Self-Adapating} - Os sistemas autonômicos devem possuir um bom conhecimento sobre o ambiente que está a sua volta, a fim de inteirar-se com sistemas próximos.
-\item \textit{Open standards} - Os sistemas autonômicos não devem existir em um contexto isolado.
-\item \textit{Anticipation / Support} - Os sistemas autonômicos devem sempre otimizar de forma antecipada os recursos necessários, mantendo oculta a complexidade do sistema e deixando-o transparente ao usuário.
+%\item \textit{Self-Knowledge} - Os sistemas devem possuir a capacidade de se conhecerem, ou seja, este deve conhecer seus próprios componentes e suas condições de funcionamento como também o funcionamento de outros sistemas. 
+\item Auto-Configuração (\textit{Self-Configuration}) - Os sistemas autonômicos devem possuir a capacidade de configurar e reconfigurar-se de acordo com variações externas, previstas ou não. A auto-configuração não deve se limitar à capacidade de um sistema configurar cada dispositivo isoladamente, mas deve ser capaz de prover o ajuste de configuração dos dispositivos dinamicamente.
+
+\item Auto-Otimização (\textit{Self-Otimization}) - Os sistemas autonômicos devem sempre estar em busca de otimização de seu trabalho, identificando novas oportunidades de aperfeiçoamento do seu trabalho, com melhor desempenho ou menor custo utilizando os mesmos recursos disponíveis.
+
+\item Auto-Cura (\textit{Self-Healing}) - Os sistemas autonômicos devem possuir capacidade de recuperar-se quanto atingidos por eventos que venham prejudicar o seu bom funcionamento, assim como detectar e aplicar soluções para que os problemas sejam corrigidos. 
+
+\item Auto-Proteção (\textit{Self-Protection}) - Os sistemas autonômicos devem possuir um bom conhecimento sobre o ambiente que está a sua volta, a fim de inteirar-se com sistemas próximos, de forma a se antecipar a problemas baseando-se na correção de dados e/ou estudo dos seus estudos anteriores. A Auto-Proteção também pode estar associada à capacidade de reconhecer e lidar com condições de sobrecarga que possam comprometer a integridade do sistema.
+
+%\item \textit{Self-Awareness / Self-Adapating} - Os sistemas autonômicos devem .
+%\item \textit{Open standards} - Os sistemas autonômicos não devem existir em um contexto isolado.
+%\item \textit{Anticipation / Support} - Os sistemas autonômicos devem sempre otimizar de forma antecipada os recursos necessários, mantendo oculta a complexidade do sistema e deixando-o transparente ao usuário.
 \end{itemize}
 
 
 \subsection{Estudo comparativo}
+%Revisar essa subseção
 Traçando-se um paralelo entre a computação atual e a computação autonômica, temos que
 a.	Comparativo
 Computação Atual:
@@ -137,20 +142,21 @@ a.	Autonômicos: Caracterizam-se por gerenciar a si próprio além de possuírem
 b.	Automáticos: Caracterizam-se por respostas ou soluções pré-definidas, por exemplo: Caso ocorra algum tipo de problema este tipo de sistema poderá solucionar o ocorrido, desde que a solução esteja pré-definida sendo essa uma característica vital, pois em sistemas automáticos não existe a capacidade de autoaprendizagem.
 
 
-\section{Redes Autonômicas}
+\section{Gerenciamento de Redes Autonômicas}
 Quando se fala em sistemas autonômicos podemos fazer um paralelo com o corpo humano, pois, este possui diversos sistemas (Ex: respiratório, digestivo dentre outros) compostos por órgãos do qual estão interconectados, já os sistemas autonômicos possuem diversos componentes, físicos ou lógicos, com importantes funções e com a finalidade de exercerem bem seu papel para que o todo funcione de forma perfeita.
-Os sistemas, em sentido amplo, com o passar do tempo tendem a evoluir fazendo com que fique cada vez mais complexo seu processo de gerenciamento além de dificultar manutenção da qualidade dos serviços oferecidos. Eis que surge a idéia de sistemas com capacidade de autogerenciamento, diminuindo a função ativa do administrador (ser humano) e passando o para uma função de supervisão.
+
+Os sistemas, em sentido amplo, com o passar do tempo tendem a evoluir fazendo com que fique cada vez mais complexo seu processo de gerenciamento além de dificultar manutenção da qualidade dos serviços oferecidos. Eis que surge a idéia de sistemas com capacidade de auto-gerenciamento, diminuindo a função ativa do administrador (ser humano) e passando o para uma função de supervisão.
 
 \subsection{Níveis de Automacidade}
-Os sistemas autonômicos evoluem de forma gradativa, as evoluções deste paradigma devem ser feitas de maneira progressiva, ou seja, são necessárias atualizações de softwares, ferramentas e processos sendo que isso leva um certo tempo e deve ser feito de forma planejada e cuidadosa. Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como, por exemplo: as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
+Os sistemas autonômicos evoluem de forma gradativa, as evoluções deste paradigma devem ser feitas de maneira progressiva, ou seja, são necessárias atualizações de softwares, ferramentas e processos sendo que isso leva um certo tempo e deve ser feito de forma planejada e cuidadosa. Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como por exemplo as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
 
-\begin{wrapfigure}{r}{0.3\textwidth}
+\begin{figure}
     \centering
     \includegraphics[width=0.3\textwidth]{Picture2.png}
-    \centering
-    \caption{Níveis de automacidade}
+\caption{Níveis de automacidade}
     \label{Sec:Intro:Fig1}
-\end{wrapfigure}
+\end{figure}
+
 
 1.1.1	Básico
 A gerência é caracterizada por processos manuais, em que os administradores do sistema devem ser os responsáveis pela configuração, monitoramento e correção nos casos de falhas. 
