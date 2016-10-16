@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  16 OCT 2016 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  16 OCT 2016 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,33 +435,35 @@ ado ini-ci-al-mente pela IBM em 2001 [[]],
  []
 
 [1]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
- [2 <./Picture1.png>]
-Underfull \vbox (badness 2653) has occurred while \output is active []
+Overfull \hbox (17.21341pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/10.95 Segundo o au-tor, qua-tro pe^^Xcas fun-da-men-tais comp~oe
+ os re-qui-si-tos para o auto-gerenciamento
+ []
 
- [3]
-<Picture2.png, id=36, 357.0138pt x 224.5188pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+[2 <./Picture1.png>] [3] <Picture2.png, id=36, 357.0138pt x 224.5188pt>
 File: Picture2.png Graphic file (type png)
- <use Picture2.png>
-Package pdftex.def Info: Picture2.png used on input line 155.
+
+<use Picture2.png>
+Package pdftex.def Info: Picture2.png used on input line 158.
 (pdftex.def)             Requested size: 130.08731pt x 81.80992pt.
- [4 <./Picture2.png>] <Picture3.png, id=41, 250.0542pt x 250.0542pt>
+ [4 <./Picture2.png>]
+<Picture3.png, id=41, 250.0542pt x 250.0542pt>
 File: Picture3.png Graphic file (type png)
  <use Picture3.png>
-Package pdftex.def Info: Picture3.png used on input line 189.
+Package pdftex.def Info: Picture3.png used on input line 192.
 (pdftex.def)             Requested size: 130.08731pt x 130.08997pt.
-
-[5 <./Picture3.png>] [6] [7] [8] (./relatorio.aux)
+ [5 <./Picture3.png>] [6] [7] [8] (./relatorio.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2392 strings out of 493089
- 32663 string characters out of 6134841
- 110097 words of memory out of 5000000
- 5826 multiletter control sequences out of 15000+600000
+ 2393 strings out of 493089
+ 32670 string characters out of 6134841
+ 111101 words of memory out of 5000000
+ 5827 multiletter control sequences out of 15000+600000
  15276 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,19n,26p,842b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -484,7 +486,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on relatorio.pdf (9 pages, 918416 bytes).
+Output written on relatorio.pdf (9 pages, 919318 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
