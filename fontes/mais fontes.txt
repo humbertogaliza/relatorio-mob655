@@ -1,0 +1,20 @@
+referecias:
+
+http://www.research.ibm.com/autonomic/manifesto/autonomic_computing.pdf
+
+http://www.webopedia.com/TERM/A/autonomic_computing.html
+
+http://domino.research.ibm.com/library/cyberdig.nsf/papers/5E932DBBECF5EBCF85257067004EE94C/$File/rc23692.pdf
+
+http://www-03.ibm.com/autonomic/pdfs/AC%20Blueprint%20White%20Paper%20V7.pdf
+
+http://homepages.dcc.ufmg.br/~linnyer/biautonomica.html
+
+http://www.sensornet.dcc.ufmg.br/disciplina/seminarios/autonomic_networking.pdf
+
+foto: elemento autonomico.
+https://www.researchgate.net/figure/303649711_fig1_Figura-2-a-Estrutura-de-um-elemento-autonomicoautonautonomico-Kephart-and-Chess
+
+http://www.hardware.com.br/artigos/computacao-autonomica/ciclo-vida.html
+
+http://pages.cs.wisc.edu/~swift/classes/cs736-fa06/papers/autonomic-computing.pdf 
