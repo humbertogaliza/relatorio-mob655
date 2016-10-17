@@ -60,7 +60,7 @@
 % TÍTULO e NOMES DOS AUTORES, completos, para a página 1.
 % Use "\\" para quebrar linhas, "\and" para separar autores.
 %
-\title{Redes Autonômicas}
+\title{Gerenciamento de Redes Autonômicas e Cognitivas}
 
 \author{Humberto Silva Galiza de Freitas\thanks{Rede Nacional de Ensino e Pesquisa (RNP), 
 Av. Dr Andre Tosello, 209, 13083-886, Campinas, SP.} \and
@@ -84,7 +84,6 @@ Estadual  de Campinas, 13081-970, Campinas, SP. }}
 \end{abstract}
 
 \section{Introdução}
-
 A inspiração da computação autonômica vem do sistema nervoso autônomo dos animais, elemento responsável pela maioria das funções vitais de controle de um organismo vivo. Esse sistema atua na coordenação e regulação das atividades corporais de uma maneira inteligente e inconsciente. 
 
 Exemplos da atuação desse sistema são os movimentos involuntários dos tecidos do coração, dos músculos do sistema respiratório, e bem como as reações automáticas desencadeadas pelo corpo humano em resposta a alterações ambientais, tais como a presença de luz e variações de temperatura, de modo a manter o seu equilibrio. A Figura~\ref{Sec:Intro:Fig1} mostra alguns exemplos de ações desempenhadas pelo sistema nervoso autônomo no corpo humano.
@@ -106,7 +105,7 @@ Os principios que norteiam os sistemas autonômicos foram inicialmente descritos
 Segundo o autor, quatro peças fundamentais compõe os requisitos para o auto-gerenciamento de um sistema autonômico, a saber:
 
 \begin{itemize}
-%\item \textit{Self-Knowledge} - Os sistemas devem possuir a capacidade de se conhecerem, ou seja, este deve conhecer seus próprios componentes e suas condições de funcionamento como também o funcionamento de outros sistemas. 
+
 \item Auto-Configuração (\textit{Self-Configuration}) - Os sistemas autonômicos devem possuir a capacidade de configurar e reconfigurar-se de acordo com variações externas, previstas ou não. A auto-configuração não deve se limitar à capacidade de um sistema configurar cada dispositivo isoladamente, mas deve ser capaz de prover o ajuste de configuração dos dispositivos dinamicamente.
 
 \item Auto-Otimização (\textit{Self-Otimization}) - Os sistemas autonômicos devem sempre estar em busca de otimização de seu trabalho, identificando novas oportunidades de aperfeiçoamento do seu trabalho, com melhor desempenho ou menor custo utilizando os mesmos recursos disponíveis.
@@ -120,7 +119,10 @@ Espera-se de um sistema autonômico a possibilidade de propor novas soluções d
 
 Em linhas gerais, um sistema automático é capaz de reagir a mudanças de contexto de um conjunto de estados pré-definidos, e geralmente esse tipo de sistema está vinculado ao conceito de automação. Por outro lado, um sistema autonômico deve se autoconfigurar mesmo em situações não previsíveis, de forma a tentar manter o desempenho, mesmo com falhas, não se contentando com o \textit{status quo}~\cite{GANEK}.
 
+\section{Gerenciamento de Redes Autonômicas}
+Quando se fala em sistemas autonômicos podemos fazer um paralelo com o corpo humano, pois, este possui diversos sistemas (Ex: respiratório, digestivo dentre outros) compostos por órgãos do qual estão interconectados, já os sistemas autonômicos possuem diversos componentes, físicos ou lógicos, com importantes funções e com a finalidade de exercerem bem seu papel para que o todo funcione de forma perfeita.
 
+Os sistemas, em sentido amplo, com o passar do tempo tendem a evoluir fazendo com que fique cada vez mais complexo seu processo de gerenciamento além de dificultar manutenção da qualidade dos serviços oferecidos. Eis que surge a ideia de sistemas com capacidade de auto-gerenciamento, diminuindo a função ativa do administrador (ser humano) e passando o para uma função de supervisão.
 
 \subsection{Estudo comparativo}
 %Revisar essa subseção
@@ -144,101 +146,128 @@ a.	Autonômicos: Caracterizam-se por gerenciar a si próprio além de possuírem
 
 b.	Automáticos: Caracterizam-se por respostas ou soluções pré-definidas, por exemplo: Caso ocorra algum tipo de problema este tipo de sistema poderá solucionar o ocorrido, desde que a solução esteja pré-definida sendo essa uma característica vital, pois em sistemas automáticos não existe a capacidade de autoaprendizagem.
 
+\subsection{Níveis de Automaticidade}
+Os sistemas autonômicos evoluem de forma gradativa, e as evoluções deste paradigma devem ser feitas de maneira progressiva, ou seja, são necessárias atualizações de softwares, ferramentas e processos sendo que isso leva um certo tempo e deve ser feito de forma planejada e cuidadosa. 
 
-\section{Gerenciamento de Redes Autonômicas}
-Quando se fala em sistemas autonômicos podemos fazer um paralelo com o corpo humano, pois, este possui diversos sistemas (Ex: respiratório, digestivo dentre outros) compostos por órgãos do qual estão interconectados, já os sistemas autonômicos possuem diversos componentes, físicos ou lógicos, com importantes funções e com a finalidade de exercerem bem seu papel para que o todo funcione de forma perfeita.
-
-Os sistemas, em sentido amplo, com o passar do tempo tendem a evoluir fazendo com que fique cada vez mais complexo seu processo de gerenciamento além de dificultar manutenção da qualidade dos serviços oferecidos. Eis que surge a idéia de sistemas com capacidade de auto-gerenciamento, diminuindo a função ativa do administrador (ser humano) e passando o para uma função de supervisão.
-
-\subsection{Níveis de Automacidade}
-Os sistemas autonômicos evoluem de forma gradativa, as evoluções deste paradigma devem ser feitas de maneira progressiva, ou seja, são necessárias atualizações de softwares, ferramentas e processos sendo que isso leva um certo tempo e deve ser feito de forma planejada e cuidadosa. Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como por exemplo as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
+Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como por exemplo as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{Picture2.png}
-\caption{Níveis de automacidade}
-    \label{Sec:Intro:Fig1}
+    \includegraphics[width=0.5\textwidth]{Picture2.png}
+	\caption{Níveis de automaticidade}
+    \label{Sec:Intro:Fig2}
 \end{figure}
 
 
-1.1.1	Básico
+\subsubsection{Básico}
 A gerência é caracterizada por processos manuais, em que os administradores do sistema devem ser os responsáveis pela configuração, monitoramento e correção nos casos de falhas. 
+
 Pontos negativos: 
-•	Neste nível vários profissionais são necessários manterem os sistemas.
-•	O processo é manual e reativo.
+\begin{itemize}
+\item Neste nível vários profissionais são necessários manterem os sistemas.
+\item O processo é manual e reativo.
+\end{itemize}
+
 A eficiência neste nível é mensurada pelo tempo utilizado pelo administrador nas soluções dos problemas.
-1.1.2	Gerenciado
+
+\subsubsection{Gerenciado}
 O nível gerenciado é caracterizado pela presença de tecnologias de gerenciamento de sistemas, com isso a coleta de informações é feita através do próprio sistema e são utilizadas para planejamento e tomada de decisões futuras dos administradores de sistemas. Neste nível as informações são documentadas e são melhoradas no decorrer do tempo.
 Ponto negativo:
-•	O processo ainda é manual.
+\begin{itemize}
+\item O processo ainda é manual.
+\end{itemize}
+
 A eficiência neste nível é mensurada através do tempo em que o sistema está disponível e tempo necessário para encerrar possíveis problemas ou requisições.
-1.1.3	Preditivo
+
+\subsubsection{Preditivo}
 Neste terceiro nível de gerenciamento, é marcado pela comunicação entre diversos elementos de um sistema através de tecnologias e protocolos que abarquem a maior quantidade possível de dispositivos. Os administradores são melhores auxiliados neste modelo, pois o processo é pró-ativo, ou seja, existe um ciclo de aprovação menor além de que as ferramentas existentes analisam e sugerem recomendações para os dispositivos.
+
 A eficiência neste nível será mensurada através da disponibilidade dos sistemas, de SLAs (Service Level Agreements) e avaliação dos clientes do serviço.
-1.1.4	Adaptativo
-No nível adaptativo pode-se dizer que há uma interligação com o nível anterior, preditivo, e também podemos considerar que esta é a última etapa antes de um gerenciamento totalmente autonômico verdadeiramente, uma vez que os sistemas podem realizar ações automaticamente baseando-se no conhecimento obtido do que está acontecendo e do ambiente que o cerca. As ações executadas neste nível devem seguir as SLAs (Service Level Agreements), uma vez que são utilizadas ferramentas de gerenciamento que são baseadas em políticas.
+
+\subsubsection{Adaptativo}
+No nível adaptativo pode-se dizer que há uma interligação com o nível anterior, preditivo, e também podemos considerar que esta é a última etapa antes de um gerenciamento totalmente autonômico verdadeiramente, uma vez que os sistemas podem realizar ações automaticamente baseando-se no conhecimento obtido do que está acontecendo e do ambiente que o cerca. 
+
+As ações executadas neste nível devem seguir as SLAs (Service Level Agreements), uma vez que são utilizadas ferramentas de gerenciamento que são baseadas em políticas.
 A avaliação de eficiência neste nível será similar com a do nível anterior, preditivo, ou seja, satisfação de clientes, atendimentos de SLAs e tempo de resposta com relação aos sistemas, mas com um fator diferencial que será a contribuição do serviços de TI para o sucesso de negócio.
-1.1.5	Autonômico
-Este é o nível mais elevado que um sistema pode chegar, uma vez que existe por completo o autogerenciamento. O sistema é gerenciado por políticas e objetivos de negócio, aqui o administrador do sistema possui a atribuição de monitoramento do processo como um todo e quando julgar necessário pode alterar os objetivos. Neste último nível são aplicadas todas as melhores praticas para o gerenciamento de TI além destas serem automatizadas, é levado em conta também pelas ferramentas de análise os custos e a análise de compromissos.
+
+\subsubsection{Autonômico}
+Este é o nível mais elevado que um sistema pode chegar, uma vez que existe por completo o auto-gerenciamento. O sistema é gerenciado por políticas e objetivos de negócio, aqui o administrador do sistema possui a atribuição de monitoramento do processo como um todo e quando julgar necessário pode alterar os objetivos. 
+
+Neste último nível são aplicadas todas as melhores praticas para o gerenciamento de TI além destas serem automatizadas, é levado em conta também pelas ferramentas de análise os custos e a análise de compromissos.
+
 A eficiência no nível mais elevado de autonomicidade é feito de acordo com o sucesso do negócio, das métricas de SLAs e das taxas de retorno do negócio.
 
 \subsection{Ciclo de Vida de um Elemento Autonômico}
 É a menor parte de um sistema autonômico, este pode estar presente em diversos dispositivos que provêem serviços para outros elementos autonômicos ou seres humanos, um bom exemplo disso são as CPUs. Uma das características de um elemento autonômico é o fato deste possuir um único gerente responsável pelo monitoramento dos elementos gerenciados. 
+
 Em uma rede autonômica existem diversos componentes que possuem a capacidade de se controlar e monitorar, neste cenário cada elemento autonômico deverá atuar para promover da melhor forma possível os recursos do componente na rede da qual está inserido e tudo isso sem diminuição da qualidade de serviço.
+
 Há um modelo genérico proposto por [Kephart 2003] demonstrando a na figura 3, no qual diz que um elemento autonômico deverá conter uma base de conhecimento para armazenar as seguintes informações: dados, parâmetros e limitadores. Neste modelo o gerente do elemento autonômico descrito anteriormente deverá percorrer continuamente as informações referentes ao monitoramento e a analise dos dados internos e externos dos elementos gerenciados.
 
-\begin{wrapfigure}{r}{0.3\textwidth}
+\begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{Picture3.png}
-    \centering
+    \includegraphics[width=0.5\textwidth]{Picture3.png}
     \caption{O elemento autonômico}
-    \label{Sec:Intro:Fig1}
-\end{wrapfigure}
+    \label{Sec:Intro:Fig3}
+\end{figure}
 
 Conforme demonstrado na figura acima, o gerenciador autonômico possui cinco partes que são: Monitoração, Análise, Planejamento, Execução e Base de Conhecimento.
 
-a.	Monitoração: 
+\subsubsection{Monitoração} 
 Quando se fala em gerenciamento é fundamental o processo de monitoramento, pois não é possível gerenciar algo que não se tenha conhecimento. Nesta etapa são aplicados os serviços de autoconhecimento e autoconsciência, este indica que o componente gerenciado deve conhecer os que estão ao seu redor, ou seja, sua vizinhança, já aquele deverá conhecer a si próprio e seus componentes. Um bom exemplo de monitoramento em ambientes tradicionais são os de hardware, exemplo: CPU, ou de software, exemplo: Banco de Dados. As informações obtidas deste monitoramento devem ser enviadas para uma base de conhecimento.
-b.	Análise:
+
+\subsubsection{Análise}
 Está fase é responsável por transformar os dados obtidos na fase de monitoramento em informações desejadas, estando armazenadas na base de conhecimento conforme mencionado anteriormente. Espera-se que estas informações possibilitem a conclusões sobre diversos aspectos, dentre eles detecção de possíveis problemas ou até mesmo a previsão de modificações futuras no sistema.
-c.	Planejamento: 
+
+\subsubsection{Planejamento}
 O principal objetivo desta fase é traçar estratégias de mudanças caso necessário de acordo com o resultado obtido da analise realizada pelo serviço anterior. Nesta fase podemos também mencionar diversos serviços de gerenciamento que terão funções importantes como, por exemplo: Auto sustento, auto-manutenção, auto-organização dentre outros, e com o auxilio destes serviços é nesta fase que será definido o planejamento e a ordem de execução das ações a serem tomadas.
-d.	Execução:
+
+\subsubsection{Execução}
 Esta fase deverá executar as tarefas de configuração ou reconfiguração da melhor forma possível em elementos como, por exemplo: hardware ou software, isto é feito de acordo com um dos principais aspectos do tópico computação autonômica: a auto-configuração. Não é de responsabilidade desta fase fazer o planeamento referente a execução, aqui basta ser executado o plano da forma em que recebido pela etapa anterior e quando necessário fazer o tratamento de possíveis falhas durante a realização da tarefa. Caso haja falha durante a execução de alguma tarefa, está fase deverá executar ações de forma ordenada a fim de que uma destas apresente resultado satisfatório.
-e.	Base de Conhecimento:
+
+\subsubsection{Base de Conhecimento}
 Está é uma das fases mais importantes do modelo genérico proposto por [Kaphart 2003], pois a base de conhecimento será responsável pelo armazenamento de dados, informações, políticas dentre outros elementos.
+
 A base de conhecimento deverá conter quatro componentes: 
-a.	Base de informações para gerenciamento local (MIB – Management Information Base).
+\begin{enumerate}
+
+\item	Base de informações para gerenciamento local (MIB – Management Information Base).
 Finalidade: É utilizado para o armazenar dados de um elemento gerenciados de rede.
-b.	Base de Informações da Aplicação (AIB – Application Information Base).
+
+\item.	Base de Informações da Aplicação (AIB – Application Information Base).
 Finalidade: Armazenar informações resultantes de uma aplicação ou aplicações executadas em um contexto autonômico (exemplo: uma rede).
-c.	Máquina de políticas. 
+
+\item Máquina de políticas. 
 Finalidade: Está máquina deverá ser capaz de incluir, armazenar, atualizar, executar, excluir e selecionar políticas de acordo com a necessidade.
-d.	Módulo correspondente de gerenciamento utilizado. (CPB – Communication Protocol Base)
+
+\item Módulo correspondente de gerenciamento utilizado. (\textit{Communication Protocol Base} - CPB)
+\end{enumerate}
 
 O ciclo de vida de elemento autonômico é dividido em 4 fases e cada uma destas serão descritas a seguir, das quais possuem problemas e desafios a serem superados. Um elemento autonômico possui seu ciclo de vida iniciado com a sua concepção e implementação, superada esta etapa inicial vai para parte de testes e verificação, prossegue para instalação, configuração, otimização, atualização, monitoramento, determinação de problemas e recuperação e finaliza seu ciclo com a desinstalação ou substituição do mesmo.
-a.	Design, Teste e Verificação
+
+\subsubsection{Design, Teste e Verificação}
 A fase de design em um projeto de elemento autonômico consiste na representação das necessidades de utilização de serviços de outros componentes, funcionalidades e capacidades, ou seja, o objetivo é propiciar aos projetistas ferramentas que os auxiliem para o mapeamento de ações de níveis inferiores. Já a fase de teste e verificação visa avaliar as funções executadas pelos elementos autonômicos. Esta fase é de suma importância uma vez que aqui é possível observar o comportamento de um elemento autonômico.
-b.	Instalação e Configuração.
+
+\subsubsection{Instalação e Configuração}
 (falta fazer.)
-c.	Monitoração e Determinação de Problemas.
+
+\subsubsection{Monitoração e Determinação de Problemas}
 Esta é uma fase fundamental no ciclo de vida de um elemento autonômico, pois segundo [Kephart 2003, p.45], é neste momento que se torna possível através do laço de controle executado continuamente em espaços de tempo regulares, verificar e certificar-se que os objetivos estão sendo cumpridos. Ainda segundo [Kephart] é possível trabalhar de forma pró-ativa, uma vez que o elemento pode fazer o monitoramento de outros componentes com a finalidade de evitar falhar além de conhecer a melhor condição do sistema como um todo. Nesta fase ainda pode ocorrer situações e que seja necessário determinar o motivo da falha, e para isso podem ser utilizadas as ferramentas de simulação e determinação de problemas em ambientes complexos, já que se deve evitar desligar e ligar novamente os componentes.
-d.	Atualização.
+\subsubsection{Atualização}
 e.	(falta fazer.)
-f.	Desinstalação e Reposição:
+
+\subsubsection{Desinstalação e Reposição}
 (falta fazer.)
 
 \subsection{Casos de uso}
 Os conceitos de redes autonômicas podem ser aplicados em diversos modelos de redes, exemplo:
-	Redes WAN, LAN, MAN, PAN;
-	Redes de telecomunicações.
-	Redes móveis.
-	Redes com ou sem fio.
+\begin{itemize}
+	\item Redes WAN, LAN, MAN, PAN;
+	\item Redes de telecomunicações.
+	\item Redes móveis.
+	\item Redes com ou sem fio.
+\end{itemize}
 Mas é valido ressaltar que cada modelo de rede possui as suas particularidades dentre elas protocolos específicos, objetivos diferentes, serviços e tecnologias distintas. Um bom exemplo disso é uma rede sem fio de um provedor de internet do qual necessita atender uma gama de clientes que estão longe da estação base do provedor e sem a possibilidade de uso de um meio guiado para transmissão de dados.
-
-
-\section{Redes Cognitivas}
-\subsection{Casos de uso}
 
 \section{Gerência de Redes Autonômicas}
 a.	Auto-Configuração:
