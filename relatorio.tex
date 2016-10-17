@@ -113,11 +113,14 @@ Segundo o autor, quatro peças fundamentais compõe os requisitos para o auto-ge
 \item Auto-Cura (\textit{Self-Healing}) - Os sistemas autonômicos devem possuir capacidade de recuperar-se quanto atingidos por eventos que venham prejudicar o seu bom funcionamento, assim como detectar e aplicar soluções para que os problemas sejam corrigidos. 
 
 \item Auto-Proteção (\textit{Self-Protection}) - Os sistemas autonômicos devem possuir um bom conhecimento sobre o ambiente que está a sua volta, a fim de inteirar-se com sistemas próximos, de forma a se antecipar a problemas baseando-se na correção de dados e/ou estudo dos seus estudos anteriores. A Auto-Proteção também pode estar associada à capacidade de reconhecer e lidar com condições de sobrecarga que possam comprometer a integridade do sistema.
-
 \end{itemize}
+
+Além disso, os sistemas autonômicos devem possuir um bom conhecimento sobre o ambiente que está a sua volta a fim de inteirar-se com sistemas vizinhos e com o ambiente que o cerca. Essa propriedade é denominada Auto-Consciência (\textit{Self-Awareness}).
+
 Espera-se de um sistema autonômico a possibilidade de propor novas soluções de acordo com o estado atual do ambiente gerenciado, mesmo que não existam pré-configurações para tal estado. Por isso, na literatura, há uma diferenciação entre sistema automático e sistema autonômico. 
 
 Em linhas gerais, um sistema automático é capaz de reagir a mudanças de contexto de um conjunto de estados pré-definidos, e geralmente esse tipo de sistema está vinculado ao conceito de automação. Por outro lado, um sistema autonômico deve se autoconfigurar mesmo em situações não previsíveis, de forma a tentar manter o desempenho, mesmo com falhas, não se contentando com o \textit{status quo}~\cite{GANEK}.
+
 
 \section{Gerenciamento de Redes Autonômicas}
 Quando se fala em sistemas autonômicos podemos fazer um paralelo com o corpo humano, pois, este possui diversos sistemas (Ex: respiratório, digestivo dentre outros) compostos por órgãos do qual estão interconectados, já os sistemas autonômicos possuem diversos componentes, físicos ou lógicos, com importantes funções e com a finalidade de exercerem bem seu papel para que o todo funcione de forma perfeita.
@@ -126,38 +129,36 @@ Os sistemas, em sentido amplo, com o passar do tempo tendem a evoluir fazendo co
 
 \subsection{Estudo comparativo}
 %Revisar essa subseção
-Traçando-se um paralelo entre a computação atual e a computação autonômica, temos que
-a.	Comparativo
-Computação Atual:
-1.	Centro de dados corporativos com múltiplos fornecedores. [Auto-Configuração]
-2.	Instalação, configuração e integração de sistemas podem ser demorada e propensa a erros. [Auto-Configuração]
-3.	Parâmetros de sistemas são definidos manualmente além de aumentar consideravelmente a cada nova versão. [Auto-Otimização]
-4.	Detecção de problemas em sistemas complexos pode demorar por semanas para serem encontrados pela equipe de programadores. [Auto-Cura]
-5.	Detecção e recuperação de ataques é feita manualmente. [Auto-Proteção]
-Computação Autonômica:
-1.	Configuração automatizada de componentes e sistemas seguindo uma política de alto nível. [Auto-Configuração]
-2.	Componentes e sistemas buscam continuamente a melhora de desempenho e eficiência. [Auto-Otimização]
-3.	O sistema faz a detecção, diagnostico e reparo de problemas em software e hardware [Auto-Cura]
-4.	Sistema faz automaticamente a defesa contra ataques maliciosos e falhas em cascata. [Auto-Proteção]
-5.	Sistema faz uso de alertas de previas para antecipar falhas em todo o sistema. [Auto-Proteção]
+%Traçando-se um paralelo entre a computação atual e a computação autonômica, temos que
+%a.	Comparativo
+%Computação Atual:
+%1.	Centro de dados corporativos com múltiplos fornecedores. [Auto-Configuração]
+%2.	Instalação, configuração e integração de sistemas podem ser demorada e propensa a erros. [Auto-Configuração]
+%3.	Parâmetros de sistemas são definidos manualmente além de aumentar consideravelmente a cada nova versão. [Auto-Otimização]
+%4.	Detecção de problemas em sistemas complexos pode demorar por semanas para serem encontrados pela equipe de programadores. [Auto-Cura]
+%5.	Detecção e recuperação de ataques é feita manualmente. [Auto-Proteção]
+%Computação Autonômica:
+%1.	Configuração automatizada de componentes e sistemas seguindo uma política de alto nível. [Auto-Configuração]
+%2.	Componentes e sistemas buscam continuamente a melhora de desempenho e eficiência. [Auto-Otimização]
+%3.	O sistema faz a detecção, diagnostico e reparo de problemas em software e hardware [Auto-Cura]
+%4.	Sistema faz automaticamente a defesa contra ataques maliciosos e falhas em cascata. [Auto-Proteção]
+%5.	Sistema faz uso de alertas de previas para antecipar falhas em todo o sistema. [Auto-Proteção]
 
-a.	Diferenças:
-a.	Autonômicos: Caracterizam-se por gerenciar a si próprio além de possuírem capacidade de aprendizado através de sua experiência, este último fator é um ponto que separa os sistemas autônomos dos autonômicos.
+%a.	Diferenças:
+%a.	Autonômicos: Caracterizam-se por gerenciar a si próprio além de possuírem capacidade de aprendizado através de sua experiência, este último fator é um ponto que separa os sistemas autônomos dos autonômicos.
 
-b.	Automáticos: Caracterizam-se por respostas ou soluções pré-definidas, por exemplo: Caso ocorra algum tipo de problema este tipo de sistema poderá solucionar o ocorrido, desde que a solução esteja pré-definida sendo essa uma característica vital, pois em sistemas automáticos não existe a capacidade de autoaprendizagem.
+%b.	Automáticos: Caracterizam-se por respostas ou soluções pré-definidas, por exemplo: Caso ocorra algum tipo de problema este tipo de sistema poderá solucionar o ocorrido, desde que a solução esteja pré-definida sendo essa uma característica vital, pois em sistemas automáticos não existe a capacidade de autoaprendizagem.
+FALTA FAZER UM TEXTO EXPLICANDO AS DIFERENCAS
 
 \subsection{Níveis de Automaticidade}
 Os sistemas autonômicos evoluem de forma gradativa, e as evoluções deste paradigma devem ser feitas de maneira progressiva, ou seja, são necessárias atualizações de softwares, ferramentas e processos sendo que isso leva um certo tempo e deve ser feito de forma planejada e cuidadosa. 
-
-Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como por exemplo as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
-
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{Picture2.png}
+    \includegraphics[width=0.6\textwidth]{Picture2.png}
 	\caption{Níveis de automaticidade}
     \label{Sec:Intro:Fig2}
 \end{figure}
-
+Durante este período de maturação devem ser resolvidos alguns desafios com relação ao paradigma autonômico como por exemplo as variáveis de diferentes origens que um sistema pode ter que equacionar para resolver um determinado problema. 
 
 \subsubsection{Básico}
 A gerência é caracterizada por processos manuais, em que os administradores do sistema devem ser os responsáveis pela configuração, monitoramento e correção nos casos de falhas. 
@@ -197,24 +198,27 @@ Neste último nível são aplicadas todas as melhores praticas para o gerenciame
 
 A eficiência no nível mais elevado de autonomicidade é feito de acordo com o sucesso do negócio, das métricas de SLAs e das taxas de retorno do negócio.
 
-\subsection{Ciclo de Vida de um Elemento Autonômico}
-É a menor parte de um sistema autonômico, este pode estar presente em diversos dispositivos que provêem serviços para outros elementos autonômicos ou seres humanos, um bom exemplo disso são as CPUs. Uma das características de um elemento autonômico é o fato deste possuir um único gerente responsável pelo monitoramento dos elementos gerenciados. 
-
-Em uma rede autonômica existem diversos componentes que possuem a capacidade de se controlar e monitorar, neste cenário cada elemento autonômico deverá atuar para promover da melhor forma possível os recursos do componente na rede da qual está inserido e tudo isso sem diminuição da qualidade de serviço.
-
-Há um modelo genérico proposto por [Kephart 2003] demonstrando a na figura 3, no qual diz que um elemento autonômico deverá conter uma base de conhecimento para armazenar as seguintes informações: dados, parâmetros e limitadores. Neste modelo o gerente do elemento autonômico descrito anteriormente deverá percorrer continuamente as informações referentes ao monitoramento e a analise dos dados internos e externos dos elementos gerenciados.
+\subsection{Elemento Autonômico}
+É a menor parte de um sistema autonômico, este pode estar presente em diversos dispositivos que proveem serviços para outros elementos autonômicos ou seres humanos. Uma das características de um elemento autonômico é o fato deste possuir um único gerente responsável pelo monitoramento dos elementos gerenciados. 
 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{Picture3.png}
-    \caption{O elemento autonômico}
+    \caption{Gerenciamento do elemento autonômico~\cite{KEPHART}.}
     \label{Sec:Intro:Fig3}
 \end{figure}
 
-Conforme demonstrado na figura acima, o gerenciador autonômico possui cinco partes que são: Monitoração, Análise, Planejamento, Execução e Base de Conhecimento.
+Em uma rede autonômica existem diversos componentes que possuem a capacidade de se controlar e monitorar, neste cenário cada elemento autonômico deverá atuar para promover da melhor forma possível os recursos do componente na rede da qual está inserido e tudo isso sem diminuição da qualidade de serviço.
+
+\subsection{Gerenciamento do Elemento Autonômico}
+Há um modelo genérico proposto por~\cite{KEPHART} demonstrando a na Figura~\ref{Sec:Intro:Fig3}, no qual diz que um elemento autonômico deverá conter uma base de conhecimento para armazenar as seguintes informações: dados, parâmetros e limitadores. Neste modelo o gerente do elemento autonômico descrito anteriormente deverá percorrer continuamente as informações referentes ao monitoramento e a análise dos dados internos e externos dos elementos gerenciados.
+
+Conforme demonstrado na Figura~\ref{Sec:Intro:Fig3}, o gerenciador autonômico possui cinco partes que são: Monitoração, Análise, Planejamento, Execução e Base de Conhecimento. A seguir, cada uma dessas partes serão detalhadas.
 
 \subsubsection{Monitoração} 
-Quando se fala em gerenciamento é fundamental o processo de monitoramento, pois não é possível gerenciar algo que não se tenha conhecimento. Nesta etapa são aplicados os serviços de autoconhecimento e autoconsciência, este indica que o componente gerenciado deve conhecer os que estão ao seu redor, ou seja, sua vizinhança, já aquele deverá conhecer a si próprio e seus componentes. Um bom exemplo de monitoramento em ambientes tradicionais são os de hardware, exemplo: CPU, ou de software, exemplo: Banco de Dados. As informações obtidas deste monitoramento devem ser enviadas para uma base de conhecimento.
+Quando se fala em gerenciamento é fundamental o processo de monitoramento, pois não é possível gerenciar algo que não se tenha conhecimento. Nesta etapa são aplicados os serviços de autoconhecimento e autoconsciência, este indica que o componente gerenciado deve conhecer os que estão ao seu redor, ou seja, sua vizinhança, já aquele deverá conhecer a si próprio e seus componentes. 
+
+Um bom exemplo de monitoramento em ambientes tradicionais são os de hardware, por exemplo CPU, ou de software, por exemplo, Banco de Dados. As informações obtidas deste monitoramento devem ser enviadas para uma base de conhecimento.
 
 \subsubsection{Análise}
 Está fase é responsável por transformar os dados obtidos na fase de monitoramento em informações desejadas, estando armazenadas na base de conhecimento conforme mencionado anteriormente. Espera-se que estas informações possibilitem a conclusões sobre diversos aspectos, dentre eles detecção de possíveis problemas ou até mesmo a previsão de modificações futuras no sistema.
@@ -231,7 +235,7 @@ Está é uma das fases mais importantes do modelo genérico proposto por [Kaphar
 A base de conhecimento deverá conter quatro componentes: 
 \begin{enumerate}
 
-\item	Base de informações para gerenciamento local (MIB – Management Information Base).
+\item	Base de informações para gerenciamento local (\textit{Management Information Base} - MIB).
 Finalidade: É utilizado para o armazenar dados de um elemento gerenciados de rede.
 
 \item.	Base de Informações da Aplicação (AIB – Application Information Base).
@@ -252,14 +256,50 @@ A fase de design em um projeto de elemento autonômico consiste na representaç�
 (falta fazer.)
 
 \subsubsection{Monitoração e Determinação de Problemas}
-Esta é uma fase fundamental no ciclo de vida de um elemento autonômico, pois segundo [Kephart 2003, p.45], é neste momento que se torna possível através do laço de controle executado continuamente em espaços de tempo regulares, verificar e certificar-se que os objetivos estão sendo cumpridos. Ainda segundo [Kephart] é possível trabalhar de forma pró-ativa, uma vez que o elemento pode fazer o monitoramento de outros componentes com a finalidade de evitar falhar além de conhecer a melhor condição do sistema como um todo. Nesta fase ainda pode ocorrer situações e que seja necessário determinar o motivo da falha, e para isso podem ser utilizadas as ferramentas de simulação e determinação de problemas em ambientes complexos, já que se deve evitar desligar e ligar novamente os componentes.
+Esta é uma fase fundamental no ciclo de vida de um elemento autonômico, pois segundo~\cite{KEPHART}, é neste momento que se torna possível através do laço de controle executado continuamente em espaços de tempo regulares, verificar e certificar-se que os objetivos estão sendo cumpridos. 
+
+Ainda segundo~\cite{KEPHART} é possível trabalhar de forma pró-ativa, uma vez que o elemento pode fazer o monitoramento de outros componentes com a finalidade de evitar falhar além de conhecer a melhor condição do sistema como um todo. Nesta fase ainda pode ocorrer situações e que seja necessário determinar o motivo da falha, e para isso podem ser utilizadas as ferramentas de simulação e determinação de problemas em ambientes complexos, já que se deve evitar desligar e ligar novamente os componentes.
 \subsubsection{Atualização}
 e.	(falta fazer.)
 
 \subsubsection{Desinstalação e Reposição}
 (falta fazer.)
 
-\subsection{Casos de uso}
+\subsection{Desafios no Gerenciamento de Redes Autonômicas}
+INCLUIR RESUMO DOS DESAFIOS - TESE DO ROMILDO
+
+%\section{Gerência de Redes Autonômicas}
+%a.	Auto-Configuração:
+%Para o bom funcionamento de um elemento de seu sistema, este em sentido amplo, é vital que sua configuração esteja correta. A instalação, a integração e as configurações devem ser feitas de forma eficiente, sendo estas seguidas de políticas pré-estabelecidas.
+%b.	Auto-Otimização:
+%Ajustes de parâmetros a fim de que os sistemas operem da melhor maneira possível, é valido ressaltar que uma parametrização equivocada com a finalidade de otimizar um sistema ou rede poderá causar resultados catastróficos em todos os sistemas, uma vez que estes estão inter-conectados.
+%c.	Auto-Cura:
+%Redes ou sistemas podem apresentar falhas que podem causar prejuízos incalculáveis, sendo necessário o investimento em pesquisas para criação de soluções capazes de identificar e corrigir estas falhas de forma automatizada causando o mínimo de impacto para os usuários e empresas.
+%d.	Auto-Proteção:
+%As redes autonômicas devem ser especialistas em auto-proteção, sendo assim elas deverão fazer a sua defesa de duas formas: 
+%•	Defesa contra ataques maliciosos: Ou seja, deverá defender o sistema como um todo a fim de evitar problemas de larga escala.
+%•	Falhas em cascatas: Permanência de erros causados por medidas de auto-cura.
+%É válido ressaltar também que as redes devem trabalhar de forma pró-ativa a fim de evitar problemas baseando se em informações anteriores e tomando medidas para evitar ou minimizar os impactos.
+%e.	Auto-Conhecimento:
+%Uma rede autonômica além de conhecer a si própria deverá também conhecer os componentes que a compõe, ou seja, esta deverá saber sobre configuração, parâmetros, serviços providos dentre outros itens que devem ser amplamente conhecidos pelo gerente autonômico responsável pelos recursos gerenciados. 
+%f.	Auto-Consciência:
+%Conforme apresentado no item anterior, além do conhecimento dos próprios recursos da rede, é necessário ter pleno conhecimento sobre o ambiente que o cerca, ou seja, a vizinhança da rede. Este tópico e de suma importância para as redes autonômicas, pois as ações tomadas pelo gerente autonômico são de acordo com o conhecimento interno (auto-configuração) quanto à configuração do ambiente externo, sua vizinhança.
+%g.	Auto-Aprendizado:
+%	(falta fazer.)
+%h.	Auto-Diagnóstico:
+%(falta fazer.)
+%i.	Auto-Recuperação:
+%	(falta fazer.)
+%j.	Auto-Organização:
+%(falta fazer.)
+%k.	Auto-Serviço:
+%l.		(falta fazer.)
+%m.	Auto-Sustento:
+%	(falta fazer.)
+%n.	Auto-Manutenção:
+%	(falta fazer.)
+
+\section{Casos de uso}
 Os conceitos de redes autonômicas podem ser aplicados em diversos modelos de redes, exemplo:
 \begin{itemize}
 	\item Redes WAN, LAN, MAN, PAN;
@@ -269,39 +309,9 @@ Os conceitos de redes autonômicas podem ser aplicados em diversos modelos de re
 \end{itemize}
 Mas é valido ressaltar que cada modelo de rede possui as suas particularidades dentre elas protocolos específicos, objetivos diferentes, serviços e tecnologias distintas. Um bom exemplo disso é uma rede sem fio de um provedor de internet do qual necessita atender uma gama de clientes que estão longe da estação base do provedor e sem a possibilidade de uso de um meio guiado para transmissão de dados.
 
-\section{Gerência de Redes Autonômicas}
-a.	Auto-Configuração:
-Para o bom funcionamento de um elemento de seu sistema, este em sentido amplo, é vital que sua configuração esteja correta. A instalação, a integração e as configurações devem ser feitas de forma eficiente, sendo estas seguidas de políticas pré-estabelecidas.
-b.	Auto-Otimização:
-Ajustes de parâmetros a fim de que os sistemas operem da melhor maneira possível, é valido ressaltar que uma parametrização equivocada com a finalidade de otimizar um sistema ou rede poderá causar resultados catastróficos em todos os sistemas, uma vez que estes estão inter-conectados.
-c.	Auto-Cura:
-Redes ou sistemas podem apresentar falhas que podem causar prejuízos incalculáveis, sendo necessário o investimento em pesquisas para criação de soluções capazes de identificar e corrigir estas falhas de forma automatizada causando o mínimo de impacto para os usuários e empresas.
-d.	Auto-Proteção:
-As redes autonômicas devem ser especialistas em auto-proteção, sendo assim elas deverão fazer a sua defesa de duas formas: 
-•	Defesa contra ataques maliciosos: Ou seja, deverá defender o sistema como um todo a fim de evitar problemas de larga escala.
-•	Falhas em cascatas: Permanência de erros causados por medidas de auto-cura.
-É válido ressaltar também que as redes devem trabalhar de forma pró-ativa a fim de evitar problemas baseando se em informações anteriores e tomando medidas para evitar ou minimizar os impactos.
-e.	Auto-Conhecimento:
-Uma rede autonômica além de conhecer a si própria deverá também conhecer os componentes que a compõe, ou seja, esta deverá saber sobre configuração, parâmetros, serviços providos dentre outros itens que devem ser amplamente conhecidos pelo gerente autonômico responsável pelos recursos gerenciados. 
-f.	Auto-Consciência:
-Conforme apresentado no item anterior, além do conhecimento dos próprios recursos da rede, é necessário ter pleno conhecimento sobre o ambiente que o cerca, ou seja, a vizinhança da rede. Este tópico e de suma importância para as redes autonômicas, pois as ações tomadas pelo gerente autonômico são de acordo com o conhecimento interno (auto-configuração) quanto à configuração do ambiente externo, sua vizinhança.
-g.	Auto-Aprendizado:
-	(falta fazer.)
-h.	Auto-Diagnóstico:
-(falta fazer.)
-i.	Auto-Recuperação:
-	(falta fazer.)
-j.	Auto-Organização:
-(falta fazer.)
-k.	Auto-Serviço:
-l.		(falta fazer.)
-m.	Auto-Sustento:
-	(falta fazer.)
-n.	Auto-Manutenção:
-	(falta fazer.)
-
-\section{Redes Sem-Fio Autonômicas}
+\subsection{Redes de Sensores Sem-Fio Autonômicas}
 To Do
+
 \section{Conclusão}
 \begin{thebibliography}{99}
 
